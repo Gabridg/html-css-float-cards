@@ -1,4 +1,24 @@
+/* General */
+
 * {
     margin: 0 auto;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    background-color: white;
+    text-align: center;
+}
+
+.container {
+    width: 70%;
+    min-height: auto;
+}
+
+/* Header */
+
+h1 {
+    color: rgb(241, 50, 107);
 }
