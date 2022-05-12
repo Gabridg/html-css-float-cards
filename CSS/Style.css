@@ -12,10 +12,19 @@ body {
     text-align: center;
 }
 
+/* Utilities */
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 
 /* Header */
 
