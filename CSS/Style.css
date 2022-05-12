@@ -1,7 +1,7 @@
 /* General */
 
 * {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -13,12 +13,46 @@ body {
 }
 
 .container {
-    width: 70%;
-    min-height: auto;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 /* Header */
 
 h1 {
     color: rgb(241, 50, 107);
+}
+
+header {
+    margin: 30px;
+}
+
+/* Main */
+
+#presentazione {
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+img {
+    height: 100px;
+}
+
+h3 {
+    padding-top: 5px;
+}
+
+.card {
+    background-color: black;
+    width: calc(100% / 3);
+    color: white;
+    min-height: auto;
+    text-align: left;
+    float: left;
+    margin: 10px;
+    line-height: 30px;
+}
+
+.card img {
+    float: left;
 }
