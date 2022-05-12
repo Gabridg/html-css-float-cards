@@ -39,12 +39,17 @@ header {
 /* Main */
 
 #presentazione {
-    margin-bottom: 30px;
+    margin: 30px;
     font-size: 18px;
+}
+
+.team {
+    margin: 30px;
 }
 
 img {
     height: 100px;
+    padding-right: 5px;
 }
 
 h3 {
@@ -53,13 +58,13 @@ h3 {
 
 .card {
     background-color: black;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 20px);
     color: white;
     min-height: auto;
     text-align: left;
     float: left;
-    margin: 10px;
     line-height: 30px;
+    margin: 10px;
 }
 
 .card img {
